@@ -1,0 +1,57 @@
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+body{
+	background-image: url("bg2.jpg");
+	background-size: cover;
+}
+.title{
+	text-align: center;
+}
+.isian{
+	color: #fff;
+}
+.buttons{
+	display: flex;
+	width: 500px;
+	height: 300px;
+	align-items: center;
+	justify-content: space-around;
+}
+.buttons .row{
+	display: block;
+	margin-left: 60px; 
+}
+button{
+	background-color: #282a35; /* Green */
+	border: none;
+	color: white;
+	height: 55px;
+	width: 150px;
+	margin: 40px 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 8px;
+	box-shadow: 0 6px #999;
+}
+button:hover {
+	background-color: #434c5e;
+}
+button:active {
+  background-color: #434c5e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input[type="text"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
